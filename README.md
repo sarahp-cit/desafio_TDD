@@ -7,6 +7,7 @@ O desafio é desevolver um armazém  usando TDD
 <h3>Criar uma classe Armazém que irá armazenar os Ingredientes e a quantidade de Ingrediente</h3>
 <ul>
     <li>A classe deve ter um atributo private TreeMap&lt;Ingrediente, Integer&gt; chamado estoque</li>
+    <li>Para o tipo Ingrediente, reutilize o material do desafio anterior</li>
 </ul>
 
 <h3>Criar um TDD para os seguintes métodos dessa classe:</h3>
