@@ -11,15 +11,15 @@ O desafio é desevolver um armazém  usando TDD
 
 <h3>Criar um TDD para os seguintes métodos dessa classe:</h3>
 <ul>
-    <li> public void cadastrarIngredienteEmEstoque(Ingrediente ingrediente) que cadastra no estoque um novo ingrediente. A quantidade deve ser setada como zero. E retornar IllegalArgumentException caso o ingrediente já esteja cadastrado com a seguinte mensagem de erro: ```Ingrediente já cadastrado```.
+    <li> public void cadastrarIngredienteEmEstoque(Ingrediente ingrediente) que cadastra no estoque um novo ingrediente. A quantidade deve ser setada como zero. E retornar IllegalArgumentException caso o ingrediente já esteja cadastrado com a seguinte mensagem de erro: **Ingrediente já cadastrado**.
     </li>
-    <li>public void descadastrarIngredienteEmEstoque(Ingrediente ingrediente) que descadastra no estoque um ingrediente, e retorna IllegalArgumentException caso o ingrediente não exista no estoque com a seguinte mensagem de erro: ```Ingrediente não encontrado```.
+    <li>public void descadastrarIngredienteEmEstoque(Ingrediente ingrediente) que descadastra no estoque um ingrediente, e retorna IllegalArgumentException caso o ingrediente não exista no estoque com a seguinte mensagem de erro: **Ingrediente não encontrado**.
 </li>
-  <li>public void adicionarQuantidadeDoIngredienteEmEstoque(Ingrediente ingrediente, Integer quantidade) adiciona uma determinada quantidade de um ingrediente específico no estoque. Retornando IllegaLArgumentException caso o ingrediente não exista no estoque ou caso a quantidade informada seja menor ou igual a zero com a seguinte mensagem de erro: ```Ingrediente não encontrado ou quantidade inválida```.
+  <li>public void adicionarQuantidadeDoIngredienteEmEstoque(Ingrediente ingrediente, Integer quantidade) adiciona uma determinada quantidade de um ingrediente específico no estoque. Retornando IllegaLArgumentException caso o ingrediente não exista no estoque ou caso a quantidade informada seja menor ou igual a zero com a seguinte mensagem de erro: **Ingrediente não encontrado ou quantidade inválida**.
 </li>
-<li>public void reduzirQuantidadeDoIngredienteEmEstoque(Ingrediente ingrediente, Integer quantidade) reduz a quantidade de um determinado ingrediente no estoque. Retornando IllegalArgumentException caso o ingrediente não exista, a quantidade em estoque seja insuficiente para ser removida ou a quantidade solicitada para remoção seja menor ou igual a zero. A exceção deve retornar a seguinte mensagem de erro: ```Ingrediente não encontrado ou quantidade inválida```.
+<li>public void reduzirQuantidadeDoIngredienteEmEstoque(Ingrediente ingrediente, Integer quantidade) reduz a quantidade de um determinado ingrediente no estoque. Retornando IllegalArgumentException caso o ingrediente não exista, a quantidade em estoque seja insuficiente para ser removida ou a quantidade solicitada para remoção seja menor ou igual a zero. A exceção deve retornar a seguinte mensagem de erro: **Ingrediente não encontrado ou quantidade inválida**.
     </li>
-    <li>public Integer consultarQuantidadeDoIngredienteEmEstoque(Ingrediente ingrediente) busca a quantidade de um determinado ingrediente no estoque. Retornando IllegalArgumentException caso não exista o ingrediente com a seguinte mensagem de erro: ```Ingrediente não encontrado```.
+    <li>public Integer consultarQuantidadeDoIngredienteEmEstoque(Ingrediente ingrediente) busca a quantidade de um determinado ingrediente no estoque. Retornando IllegalArgumentException caso não exista o ingrediente com a seguinte mensagem de erro: **Ingrediente não encontrado**.
     </li>
 
 </ul>
